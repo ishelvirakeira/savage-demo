@@ -3,10 +3,10 @@ const app = express()
 const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient
 
+const dbName = "demo";
 var db, collection;
 
-const url = "mongodb+srv://ishelvirakeira_db_user:UA9tfjBS5RFgw3Ht@cluster0.vnt1rh6.mongodb.net/?appName=Cluster0";
-const dbName = "demo";
+const url = "mongodb+srv://ishelvirakeira_db_user:QjtwX7dDGqX9Ivk9@cluster0.vnt1rh6.mongodb.net/"+ dbName + "?retryWrites=true&w=majority";
 
 app.listen(3000, () => {
     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, (error, client) => {
