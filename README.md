@@ -1,5 +1,3 @@
-![21 Savage](public/21savage.jpg)
-
 This is a custom full-stack web application themed around 21 Savage. Users can interact with content by giving thumbs up or thumbs down, demonstrating dynamic updates in the database.
 
 Find the live demo at https://savage-demo-qd0s.onrender.com/
